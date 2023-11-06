@@ -37,4 +37,23 @@ No
 # What is Customizing-embeddings?
 we provide a method for customizing your embeddings using training data. The idea of the method is to train a custom matrix to multiply embedding vectors by in order to get new customized embeddings. With good training data, this custom matrix will help emphasize the features relevant to your training labels. You can equivalently consider the matrix multiplication as (a) a modification of the embeddings or (b) a modification of the distance function used to measure the distances between embeddings.
 
+# Why do we want to use Customizing-embeddings?
+OpenAI's traditional embedding models, such as GPT-3 and earlier versions, have already excelled at handling language understanding tasks, particularly because they have been trained on massive datasets, enabling them to perform well on many general tasks. However, customized embeddings offer advantages that traditional embedding models may not achieve:
+
+Specific Domain Accuracy: Traditional embedding models may not be precise enough for specialized terms and concepts in specific domains. Customized embeddings, trained on data specific to that domain, can better understand and represent nuances within that field.
+
+Context Awareness: While models like GPT-3 are already advanced in capturing context, customized embeddings can provide a more refined understanding for complex or less common contextual usages.
+
+Performance Optimization: In resource-constrained situations, such as when needing to run models on edge devices, customized embeddings can be optimized by reducing model size without sacrificing too much performance.
+
+Data Privacy: When dealing with sensitive data, customized embeddings allow for local training, which means data does not need to be uploaded to the cloud, helping to enhance data privacy.
+
+Multilingual and Cross-Cultural Capabilities: Although OpenAI's models support multiple languages, customized embeddings can offer deeper optimization for specific languages or dialects, especially those that might be underrepresented in pre-training data.
+
+Noise and Anomaly Handling: For datasets that contain a lot of non-standard language, slang, or errors (such as social media data), customized embeddings can better adapt to these characteristics.
+
+Therefore, although OpenAI's standard embedding models are already powerful, customized embeddings still provide significant value and performance improvements in certain specific application scenarios. This is why many businesses and research projects may choose to further optimize embedding vectors to cater to their unique needs.
+
+# How we use Customizing-embeddings?
+
 
