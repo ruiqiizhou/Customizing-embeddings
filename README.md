@@ -40,6 +40,8 @@ No
 
 # What is Customizing-embeddings?
 we provide a method for customizing your embeddings using training data. The idea of the method is to train a custom matrix to multiply embedding vectors by in order to get new customized embeddings. With good training data, this custom matrix will help emphasize the features relevant to your training labels. You can equivalently consider the matrix multiplication as (a) a modification of the embeddings or (b) a modification of the distance function used to measure the distances between embeddings.
+<img width="714" alt="Screenshot 2023-11-06 at 12 14 25 AM" src="https://github.com/ruiqiizhou/Customizing-embeddings/assets/101485360/8550b94c-8349-4731-94ec-85a514e3c983">
+
 
 # Why do we want to use Customizing-embeddings?
 OpenAI's traditional embedding models, such as GPT-3 and earlier versions, have already excelled at handling language understanding tasks, particularly because they have been trained on massive datasets, enabling them to perform well on many general tasks. However, customized embeddings offer advantages that traditional embedding models may not achieve:
