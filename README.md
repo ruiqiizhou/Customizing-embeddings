@@ -4,9 +4,13 @@ How many embedding models Open AI provide now?
 OpenAI offers a suite of embedding models accessible through its API. These models include ada, babbage, curie, and davinci, each optimized for different performance and cost considerations. For instance:
 
 Ada: The fastest and least expensive model, suitable for quick processing and tasks where precision is less critical.
+
 Babbage: Provides a balance between speed and cost, suitable for tasks of medium complexity.
+
 Curie: More powerful than Babbage, suitable for more complex understanding and generation tasks.
+
 Davinci: The most powerful model capable of handling the most complex tasks but also the most expensive.
+
 All these models can generate embeddings for various applications such as text similarity analysis, classification, clustering, and more. OpenAI continually updates and improves their models to provide better performance and new features. If there are any new or custom-specific embedding models, they would typically be announced through OpenAI's official channels or API documentation.
 
 # Q1: Which one is the best?
