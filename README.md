@@ -11,8 +11,8 @@ All these models can generate embeddings for various applications such as text s
 
 # Q1: Which one is the best?
 
-# Model improvements
-# Stronger performance. 'text-embedding-ada-002' outperforms all the old embedding models on text search, code search, and sentence similarity tasks and gets comparable performance on text classification. For each task category, they evaluate the models on the datasets used in old embeddings.
+Model improvements:
+Stronger performance. 'text-embedding-ada-002' outperforms all the old embedding models on text search, code search, and sentence similarity tasks and gets comparable performance on text classification. For each task category, they evaluate the models on the datasets used in old embeddings.
 
 
 
@@ -26,3 +26,15 @@ All these models can generate embeddings for various applications such as text s
 
 
 <img width="677" alt="Screenshot 2023-11-05 at 8 57 01 PM" src="https://github.com/ruiqiizhou/Customizing-embeddings/assets/101485360/48aed872-ca6e-432e-9a8b-057d87832911">
+
+
+# Q2 Can we fine_tune OPENAI embedding models' weights?
+
+No
+
+# Although OpenAI's embedding model weights cannot be fine-tuned, we can nevertheless use training data to customize embeddings to our application.
+
+# What is Customizing-embeddings?
+we provide a method for customizing your embeddings using training data. The idea of the method is to train a custom matrix to multiply embedding vectors by in order to get new customized embeddings. With good training data, this custom matrix will help emphasize the features relevant to your training labels. You can equivalently consider the matrix multiplication as (a) a modification of the embeddings or (b) a modification of the distance function used to measure the distances between embeddings.
+
+
